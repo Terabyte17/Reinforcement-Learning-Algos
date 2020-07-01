@@ -9,6 +9,8 @@ In our implementation, the dealer always follows the policy of twisting if his s
 ## Policy Evaluation (Prediction)
 The First Visit Monte Carlo prediction algorithm has been implemented in the MC_prediction.py script and it evaluates the value function for a given policy. The policy that the agent/player follows in this script is: - Twist if sum < 20; stick otherwise
 
+## Policy Iteration
+The First Visit Monte Carlo control algorithm has been implemented in the MC_epsilon_greedy_policy.py scripts and it evaluates the optimal value function for the environment. This helps in solving the environment as the policy that the player follows can now be a greedy  policy with respect to the optimal value function giving us an optimal policy.
 
 ## Results
 #### Value Function Prediction (No Usable Ace)                                                   
